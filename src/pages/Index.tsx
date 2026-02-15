@@ -36,7 +36,7 @@ const Index = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-5xl md:text-7xl lg:text-8xl font-extrabold leading-[0.95] mb-8 glow-text"
           >
-            You hold Finland's
+            You hold the WORLD's
             <br />
             <span className="text-gradient">most important</span>
             <br />
