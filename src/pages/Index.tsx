@@ -26,7 +26,7 @@ const Index = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
-            className="uppercase tracking-[0.3em] text-sm font-medium text-primary mb-6"
+            className="uppercase tracking-[0.3em] text-base md:text-lg font-semibold text-primary mb-6"
           >
             Demola Future Expert Launchpad
           </motion.p>
@@ -48,7 +48,7 @@ const Index = () => {
             transition={{ duration: 0.7, delay: 0.5 }}
             className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 leading-relaxed"
           >
-            8 weeks. Real company challenges. Your expertise unleashed. 
+            8 weeks. Co-create with industry-leading companies. Your expertise unleashed. 
             Join an elite cohort of innovation professionals and build what comes next.
           </motion.p>
           <motion.div
@@ -102,7 +102,7 @@ const Index = () => {
           >
             <p className="text-xl md:text-2xl text-muted-foreground leading-relaxed">
               That's why we need concrete action now — action that builds, not talks. 
-              Demola brings together growth-driven companies and top talent who won't settle for standing by.
+              Demola brings together growth and innovation driven organizations and top talent who won't settle for standing by.
             </p>
           </motion.div>
         </div>
@@ -126,7 +126,7 @@ const Index = () => {
             whileInView="visible"
             viewport={{ once: true }}
             custom={1}
-            className="text-center text-muted-foreground text-lg mb-16 max-w-xl mx-auto"
+            className="text-center text-muted-foreground text-xl md:text-2xl font-semibold mb-16 max-w-xl mx-auto uppercase tracking-wide"
           >
             Drive matters more than status.
           </motion.p>
