@@ -1,0 +1,18 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "dev",
+      "runtimeExecutable": "cmd",
+      "runtimeArgs": ["/c", "C:\\Program Files\\nodejs\\npm.cmd", "run", "dev"],
+      "port": 8080
+    },
+    {
+      "name": "raide-manifesto",
+      "runtimeExecutable": "cmd",
+      "runtimeArgs": ["/c", "C:\\Users\\simok\\OneDrive\\Ty\u00f6p\u00f6yt\u00e4\\raide-manifesto\\start-dev.bat"],
+      "port": 3456,
+      "autoPort": false
+    }
+  ]
+}
