@@ -17,7 +17,6 @@
     "isolatedModules": true,
     "jsx": "react-jsx",
     "incremental": true,
-    "baseUrl": "src",
     "typeRoots": [
       "src/@types",
       "node_modules/@types"
